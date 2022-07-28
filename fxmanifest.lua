@@ -11,11 +11,11 @@ server_script {
   'server/server.lua'
 }
 shared_scripts {
+  'config/config.lua',
   'config/shops.lua',
   'config/weapons.lua',
   'config/language.lua',
-  'config/ammo.lua',
-  'config/config.lua'
+  'config/ammo.lua'
 }
 
 --dont touch
